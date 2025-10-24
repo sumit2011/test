@@ -1,0 +1,7 @@
+package com.sutherland.lms.entity;
+
+public enum LeaveType {
+	CASUAL,
+	MEDICAL
+
+}
