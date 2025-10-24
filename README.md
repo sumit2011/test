@@ -1,4 +1,5 @@
 
+## currently the app is working fine with oracle db.
 
 # update the pom.xml file acc to your database
 <!-- Databases -->
