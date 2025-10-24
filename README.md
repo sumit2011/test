@@ -36,28 +36,28 @@ spring.datasource.password=test123
 spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.Oracle10gDialect
 
-<!-- 
-# ---- MYSQL ----
-# spring.datasource.url=jdbc:mysql://localhost:3306/mysqldb
-# spring.datasource.username=root
-# spring.datasource.password=root
-# spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-# spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
-# ---- POSTGRESQL ----
-# spring.datasource.url=jdbc:postgresql://localhost:5432/postgresdb
-# spring.datasource.username=postgres
-# spring.datasource.password=postgres
-# spring.datasource.driver-class-name=org.postgresql.Driver
-# spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+---- MYSQL ----
+spring.datasource.url=jdbc:mysql://localhost:3306/mysqldb
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
-# ---- H2 (In-Memory) ----
-# spring.datasource.url=jdbc:h2:mem:testdb
-# spring.datasource.driver-class-name=org.h2.Driver
-# spring.datasource.username=sa
-# spring.datasource.password=
-# spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
+---- POSTGRESQL ----
+spring.datasource.url=jdbc:postgresql://localhost:5432/postgresdb
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+---- H2 (In-Memory) ----
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
 
 
 spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true -->
+spring.jpa.show-sql=true
